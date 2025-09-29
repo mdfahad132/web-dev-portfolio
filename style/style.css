@@ -194,3 +194,37 @@ hr{
 .resume-download-cv{
     margin-top: 50px;
 }
+
+/* footer */
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    margin-top: 113px;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    width: 451px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    padding: 0 18px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 24px;
+}
+textarea{
+    width: 451px;
+    height: 160px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    padding: 18px 30px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 34px;
+}
